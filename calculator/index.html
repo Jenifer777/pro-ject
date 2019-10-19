@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body class="container"> 
+         <h1  class="head">simple calculator</h1>
+         <div class="calculator card">
+          <input type="text"  class=" calculator-screen z-depth-1 display" />
+ 
+         <div class="calculator-keys">
+               <button class="button2" onclick="clr()">c</button>
+               <button class="button5" onclick="backbutton()">back</button>
+               <button class="button5" onclick="number('+')">+</button> <br/>
+                  
+               <button class="button5" onclick="number(1)">1</button>    
+                  <button class=" button5" onclick="number(2)">2</button>
+                  <button class=" button5" onclick="number(3)">3</button>  
+                  <button class="button5 " onclick="number('/')">/</button>
+                  
+                  <button class="button5" onclick="number(4)">4</button>
+                 <button class="button5" onclick="number(5)">5</button>
+                 <button class="button5" onclick="number(6)">6</button>
+                 <button class="button5" onclick="number('*')">*</button>
+                 
+                 <button class="button5" onclick="number(7)">7</button>
+                 <button class="button5" onclick="number(8)">8</button>
+                 <button class="button5" onclick="number(9)">9</button>
+                 <button class="button5" onclick="number('-')">-</button> 
+                
+                 <button class="button5"  onclick="number(0)">0</button>
+                 <button class="button5"  onclick="number('.')">.</button>
+                
+                 <button class="button2" onclick="result()">=</button>
+         </div>      
+      <script src="script/calscript.js" type="text/javascript"></script>
+    </body> 
+</html>    
+
+            
