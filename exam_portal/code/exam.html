@@ -1,0 +1,191 @@
+<html>
+<head>
+<style>
+body
+{
+    background:skyblue;
+    padding: 45px;
+    margin:0 auto;
+}
+</style>
+<body>
+<table>
+                        <tbody>
+                            <tr>
+                                <td colspan="4" style="text-transform: uppercase;">
+                                    <span id="ContentPlaceHolder1_Label4" style="color:Red;font-size:X-Large;font-weight:bold;">UG Examination  Fee payment </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="auto-style1" style="font-family: Arial; text-transform: uppercase;">
+                                    <span id="ContentPlaceHolder1_Label2" style="color:Black;font-weight:bold;">Registration No</span>
+                                    </td>
+                                <td class="auto-style2" style="text-transform: uppercase;"><b>
+                                    <input name="ctl00$ContentPlaceHolder1$txtRegNo" type="text" maxlength="10" id="ContentPlaceHolder1_txtRegNo" style="width:85%;"></b>
+                                    <span id="ContentPlaceHolder1_RequiredFieldValidator4" style="color:Red;">*</span>
+                                </td>
+                                <td colspan="2" style="text-transform: uppercase;"><b>
+                                    <input type="submit" name="ctl00$ContentPlaceHolder1$BtnFind" value="Find" id="ContentPlaceHolder1_BtnFind" title="enter the all fileds then click Add New link!" class="btn btn-info" style="width:111px;">
+                                </b></td>
+                            </tr>
+                            <tr>
+                                <td style="text-transform: uppercase;"><b>Name</b></td>
+                                <td class="auto-style2" style="text-transform: uppercase;"><b>
+                                    <input name="ctl00$ContentPlaceHolder1$txtName" type="text" readonly="readonly" id="ContentPlaceHolder1_txtName" disabled="disabled" class="aspNetDisabled" style="width:85%;"></b>
+                                    <span id="ContentPlaceHolder1_RequiredFieldValidator5" style="color:Red;visibility:hidden;">*</span>
+                                </td>
+                                <td class="auto-style3" style="text-transform: uppercase;">&nbsp;</td>
+                                <td style="text-transform: uppercase;">
+                                    
+
+
+                                </td>
+
+                            </tr>
+
+                            <tr>
+                                <td style="text-transform: uppercase;">Degree<br>
+                                </td>
+                                <td class="auto-style2" style="text-transform: uppercase;">
+                                    <select name="ctl00$ContentPlaceHolder1$ddlDegree" id="ContentPlaceHolder1_ddlDegree" class="selectpicker form-control input-sm" style="width:95%;">
+
+</select>
+                                </td>
+                                <td style="text-transform: uppercase;">Course</td>
+                                <td style="text-transform: uppercase;">
+                                    <select name="ctl00$ContentPlaceHolder1$ddlCourse" id="ContentPlaceHolder1_ddlCourse" class="selectpicker form-control input-sm" style="width:70%;">
+
+</select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-transform: uppercase;">Collge/Department Name</td>
+                                <td colspan="3" style="text-transform: uppercase;">
+                                    <select name="ctl00$ContentPlaceHolder1$ddlColDepName" id="ContentPlaceHolder1_ddlColDepName" class="selectpicker form-control input-sm">
+
+</select>
+                                    <span id="ContentPlaceHolder1_lblDyas"></span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-transform: uppercase;">Email</td>
+                                <td class="auto-style2" style="text-transform: uppercase;">
+                                    <input name="ctl00$ContentPlaceHolder1$txtEmail" type="email" id="ContentPlaceHolder1_txtEmail" style="width:85%;">
+                                    <span id="ContentPlaceHolder1_RequiredFieldValidator1" style="color:Red;visibility:hidden;">*</span>
+                                    <span id="ContentPlaceHolder1_RegularExpressionValidator1" title="Enter Correct Email" style="color:#FF0066;visibility:hidden;">*</span>
+                                </td>
+                                <td style="text-transform: uppercase;">Contact No</td>
+                                <td style="text-transform: uppercase;">
+                                    <input name="ctl00$ContentPlaceHolder1$txtContactNo" type="text" maxlength="10" id="ContentPlaceHolder1_txtContactNo" onkeydown="return isNumeric(event.keyCode);">
+                                    <span id="ContentPlaceHolder1_RequiredFieldValidator3" style="color:Red;visibility:hidden;">*</span>
+
+
+                                    <span id="ContentPlaceHolder1_RegularExpressionValidator2" style="visibility:hidden;">*</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="text-transform: uppercase;">AadharNumber</td>
+                                <td class="auto-style2" style="text-transform: uppercase;">
+                                    <input name="ctl00$ContentPlaceHolder1$txtaadhar" type="text" maxlength="12" id="ContentPlaceHolder1_txtaadhar" onkeydown="return isNumeric(event.keyCode);">
+
+
+                                    <span id="ContentPlaceHolder1_RegularExpressionValidator3" style="visibility:hidden;">*</span>
+                                </td>
+                                <td style="text-transform: uppercase;">
+                                    &nbsp;</td>
+                                <td style="text-transform: uppercase;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td style="text-transform: uppercase;">Nationality</td>
+                                <td class="auto-style2" style="text-transform: uppercase;">
+
+                                    <table id="ContentPlaceHolder1_RBLNationality" style="width:99%;">
+	<tbody><tr>
+		<td style="text-transform: uppercase;"><input id="ContentPlaceHolder1_RBLNationality_0" type="radio" name="ctl00$ContentPlaceHolder1$RBLNationality" value="1"><label for="ContentPlaceHolder1_RBLNationality_0">Indian National</label></td><td style="text-transform: uppercase;"><input id="ContentPlaceHolder1_RBLNationality_1" type="radio" name="ctl00$ContentPlaceHolder1$RBLNationality" value="2"><label for="ContentPlaceHolder1_RBLNationality_1">Foreign National</label></td>
+	</tr>
+</tbody></table>
+
+                                </td>
+                                <td style="text-transform: uppercase;">
+                        <input type="submit" name="ctl00$ContentPlaceHolder1$btncal" value="Calculate" id="ContentPlaceHolder1_btncal" title="enter the all fileds then click Save Button!" class="btn btn-info" autopostback="false">
+                                </td>
+                                <td style="text-transform: uppercase;">CLICK ON CALCULATE BUTTON TO CALCULATE THE FEES&nbsp;&nbsp;</td>
+                            </tr>
+                            <tr style="display: none">
+                                <td style="text-transform: uppercase;">Exam Type</td>
+                                <td colspan="3" style="text-transform: uppercase;">
+
+                                    
+
+                                </td>
+
+                            </tr>
+                            <tr id="ContentPlaceHolder1_trHideSem" style="display: none">
+	<td style="text-transform: uppercase;">Current Year / Semester</td>
+	<td class="auto-style2" style="text-transform: uppercase;">
+                                    
+                                </td>
+	<td colspan="2" style="text-transform: uppercase;">
+                                    <span id="ContentPlaceHolder1_lblYear"></span>
+                                </td>
+</tr>
+
+                            <tr>
+                                <td colspan="4" style="text-transform: uppercase;">
+                                    <div id="ContentPlaceHolder1_UpdatePanel1">
+	
+
+
+                                            
+                                        
+</div>
+                                </td>
+                            </tr>
+
+                            
+                            
+
+                            
+
+                            
+                            
+
+                            
+                            
+                            
+                            
+
+                            <tr>
+                                <td style="text-transform: uppercase;">
+                                    
+                                    
+                                    <span id="ContentPlaceHolder1_Label3" style="font-size:Small;font-weight:bold;">Total FeeAmount</span></td>
+                                <td class="auto-style2" colspan="3" style="text-transform: uppercase;">
+                                    <span id="ContentPlaceHolder1_lblttlamount" style="font-size:Small;font-weight:bold;">0.00</span>
+                                    
+                                    <span id="ContentPlaceHolder1_RequiredFieldValidator10" style="color:Red;visibility:hidden;">*</span>
+                                    &nbsp;(Including Common fee) </td>
+                                
+                            </tr>
+
+                            <tr>
+                                <td colspan="4" style="text-transform: uppercase;">
+                                    <span id="ContentPlaceHolder1_lblConvFee" style="font-size:Medium;font-weight:bold;"></span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="4" style="text-transform: uppercase;">
+                                    <b>Pre Examination Service Charge : - </b>
+                                    <span id="ContentPlaceHolder1_lblPreExamCharge" class="auto-style5" style="font-weight:bold;"></span>
+                                </td>
+                            </tr>
+
+                            
+                        </tbody>
+                    </table>
+</body>
+</head>
+</html>
+					
+			

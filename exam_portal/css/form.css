@@ -1,0 +1,47 @@
+.bdy
+{
+    background:black;
+    padding: 45px;
+    margin:0 auto;
+}
+.details{
+	
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+}
+label{
+	float:left;
+	color:white;
+	font-size:20px;
+	text-align:left;
+	line-height:15px;
+	letter-spacing:8px;
+}
+h2,h3{
+	color:white;
+	text-align:center;
+}
+input,select{
+	color:white;
+	flex:1;
+   padding:20px 30px;
+   margin:40% auto;
+   box-align:center;
+   border-radius:20% 0 20% 0;
+    box-shadow: -1px 1px 10px 10px skyblue;
+   border:5px solid blue;
+   font-size:20px;
+   white-space:nowrap;
+   cursor:pointer;
+   background:transparent;
+  }	
+ 
+  button{
+	  margin:center;
+	  float:center;
+  }
+  .btn{
+	  float:right;
+	  margin:0 10% 0 0;
+  }

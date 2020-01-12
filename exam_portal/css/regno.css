@@ -1,0 +1,52 @@
+
+a
+{
+    color: skyblue;
+    font-family:Tahoma, Geneva, sans-serif;
+    margin-left: 30px;
+}
+.cong
+{
+    background:skyblue;
+    padding: 45px;
+    margin:0 auto;
+}
+input
+{
+    width: 100%;
+    text-align:left;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid green;
+    font-family: 'Play', sans-serif;
+    font-size: 16px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    color: white;
+}
+input[type=button]
+{   
+     text-align:center;
+	float:right;
+    border:3px solid black;
+    width: 190px;
+    background:skybue;
+    color: #000;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 15px;
+    cursor: pointer;
+}
+input[type=button]:hover
+{
+    color:white;
+    background-color: green;
+}
+
+::placeholder {
+    color:aliceblue;
+    opacity: 0.8; 
+}
